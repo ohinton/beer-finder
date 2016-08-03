@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="build/css/vendor.css">
     <script src="build/js/vendor.min.js"></script>
     <script type="text/javascript" src="build/js/app.js"></script>
-    <title>Beer Near Here</title>
+    <title>Cemetery Finder</title>
     <style>
      #map {
       width: 100%;
@@ -14,15 +14,14 @@
   </head>
   <body>
     <div id="map"></div>
-    <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvkXpUhaIqG7IaTZwqCKM-sEkBBkrXwLQ&callback=initMap">
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvkXpUhaIqG7IaTZwqCKM-sEkBBkrXwLQ&libraries=places&callback=initMap">
     </script>
     <div class="container">
-      <h1>Find your local brewery!</h1>
+      <h1>Find your local cemetery!</h1>
       <label for="location">Enter a location:</label>
       <input id="location" type="text">
-      <button class="btn-success" id="breweryLocation">Get Beer!</button>
-      <div class="showBeer"></div>
+      <button class="btn-success" id="cemeteryLocation">Get graves!</button>
+      <div class="showCemetery"></div>
     </div>
   </body>
 </html>
