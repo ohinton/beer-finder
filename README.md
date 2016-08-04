@@ -1,10 +1,10 @@
-# 🍻 Beer Near Here? 🍻 
+# 👻 Portland Cemetery Locator 👻
 
 #### By Olivia & Rachael | Date: August 3, 2016
 
 ## Description
 
-Find beer near you!
+Locate all the cemeteries in Portland!
 
 ## General Setup Instructions
 

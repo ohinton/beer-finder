@@ -39,50 +39,5 @@ $(document).ready(function() {
 });
 });
 
-//
-//
-//
-//
-//
-// function locateUser() {
-//   if (navigator.geolocation){
-//     var positionOptions = {
-//       enableHighAccuracy: true,
-//       timeout: 10 * 1000
-//     };
-//     navigator.geolocation.getCurrentPosition(geolocationSuccess, geolocationError, positionOptions);
-//   }
-//   else {
-//     alert("Your browser doesn't support the Geolocation API");
-//   }
-// }
-//
-//
-// function geolocationSuccess(position) {
-//   var userLatLng = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
-//   var cemeteryLatLng = new google.maps.LatLng(45.5184, -122.6422);
-//   var cemeteryLatLng2 = new google.maps.LatLng(45.4654, -122.6732);
-//
-//   var myOptions = {
-//     zoom : 16,
-//     center : cemeteryLatLng,
-//     mapTypeId : google.maps.MapTypeId.ROADMAP
-//   };
-//
-//   var mapObject = new google.maps.Map(document.getElementById("map"), myOptions);
-//   var marker=new google.maps.Marker({
-//     map: mapObject,
-//     position: cemeteryLatLng, cemeteryLatLng2,
-//     icon:'img/tombstone.jpg'}
-//   );
-// }
-//
-//
-// function geolocationError(positionError) {
-//   alert(positionError);
-// }
 
-
-
-// marker.setMap(map);
 exports.initMapModule = initMap;
