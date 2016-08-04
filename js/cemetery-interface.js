@@ -6,6 +6,11 @@ $(document).ready(function() {
   $('#locateCemeteries').click(function() {
 
   var locations = [
+    ['Lincoln Memorial Park', 45.460181, -122.544133, 9],
+    ['Willamette National Cemetery', 45.459955, -122.543106, 8],
+    ['Historic Columbian Cemetery', 45.584231, -122.678376, 7],
+    ['Grand Army of the Republic Cemetery', 45.460220, -122.682163, 6],
+    ['Rose City Cemetery', 45.550234, -122.609496, 5],
     ['Lone Fir Cemetery', 45.5184, -122.6422, 4],
     ['River View Cemetery', 45.4654, -122.6732, 3],
     ['Mount Calvary Cemetery', 45.5187, -122.7356, 2],
