@@ -3,7 +3,7 @@
   "description": "#### By Olivia & Rachael | Date: August 3, 2016",
   "main": "gulpfile.js",
   "license": "ISC",
-  "homepage": "",
+  "homepage": "https://github.com/ribermudes/beer-finder",
   "ignore": [
     "**/.*",
     "node_modules",
