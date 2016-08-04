@@ -31,15 +31,19 @@ function geolocationSuccess(position) {
   };
 
   var mapObject = new google.maps.Map(document.getElementById("map"), myOptions);
-  new google.maps.Marker({
+  var marker=new google.maps.Marker({
     map: mapObject,
-    position: userLatLng
-  });
+    position: userLatLng,
+    icon:'img/tombstone.png'}
+  );
 }
+
 
 function geolocationError(positionError) {
   alert(positionError);
 }
 
 
+
+// marker.setMap(map);
 exports.initMapModule = initMap;
